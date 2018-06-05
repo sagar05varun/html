@@ -1,0 +1,18 @@
+body{
+    text-align: center;
+}
+
+h1{
+    color:#ff4500;
+}
+h3{
+    color: blue;
+}
+input{
+    font-size: 20px;
+    margin: 5px;
+}
+label{
+    font-size: 20px;
+    margin: 5px;
+}
