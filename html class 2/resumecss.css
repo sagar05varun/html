@@ -1,0 +1,13 @@
+#resume-header { color:gray;
+padding:0px;
+margin: 0px;
+line-height: 100%;
+}
+* {font-family: Arial, Helvetica, sans-serif;
+    background:black;
+    color: white;
+    }
+#Profile h2 {color:red;}
+
+#Profile h3 {color:rgba(172, 207, 16, 0.836);}
+
