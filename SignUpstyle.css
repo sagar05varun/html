@@ -4,7 +4,7 @@ body{
 .wrap{
     width: 350px;
     margin: auto;
-    background: rgb(104, 192, 214);
+    background: rgb(214, 104, 146);
     margin-top: 50px;
     padding: 5px;
 }
@@ -28,7 +28,7 @@ input{
     border: none;
 }
 input[type=text],input[type=email],input[type=number],input[type=password]
-{width:90%;}
+{width:95%;}
 span{
     font-size: 18px;
 }
