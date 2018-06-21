@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{background: rgb(100, 77, 35);}
+h1{
+    background: blue;
+    border-radius: 2px;
+    //text-align: center;
+    padding:10px;
+    margin: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:40px;
+    letter-spacing: 0.5px;
+    color: white;
+}
+
+p{
+    font-size: 30px;
+    color: grey;
+    padding:10px;
+    margin: 10px;
+}
+.field {
+    max-width: 600px;
+    height: 900px;
+    background:red;
+    padding:10px;
+    margin: 10px;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+input[type=text], input[type=number] {
+width: 50%;
+padding:10px;
+margin: 10px 0px;
+}
+.Add {
+ width: 600px;
+ border: 1px;
