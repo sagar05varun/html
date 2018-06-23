@@ -1,0 +1,61 @@
+
+.container {border: 1px solid black;
+    width: 500px;
+    height: 500px;
+    margin:10px;
+
+}
+
+.row1 {width: 150px;
+            clear: both;
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+            margin: 20px;
+   
+}
+
+.row2{
+       position: absolute;
+        margin-top: -40px;
+        left:250px;
+        width:250px;
+}
+
+.headding {
+    text-align: center;
+    background-color: blue;
+    margin-top: -21px;
+}
+
+input[type=text], input[type=email] {
+    padding:1px;
+    margin: 0px;
+    border: 2px solid black;
+}
+
+.form-control, .Cat-control, .Mem-control { width: 173px;
+border: 2px solid black;
+padding:1px;
+}
+input[type=date] {
+    width: 173px;
+    padding: 1px;
+    margin: 0;
+    border: 2px solid black;
+   }
+   .btn1, .btn2{
+       width: 173px;
+       font-family: Arial, Helvetica, sans-serif;
+       padding: 1px;
+       border: 2px solid black;
+       background: blue;
+       color: white;
+   }
+
+   .btn2 {position: absolute;
+    left:250px;
+    margin-top: -20px;
+
+
+}
