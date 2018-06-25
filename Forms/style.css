@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: #ccc;
+}
+#reg-form{
+    width: 50%;
+    margin-top:10%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    
+}
+.form-group{
+    text-align: left;
+    padding: 10px;
+    margin-bottom:10px;
+}
+.form-group label{
+    display: block;
+    clear: left;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#reg-form h3{
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: deepskyblue;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.form-title{
+    background-color: white;
+    text-align: left;
+    padding: 10px;
+    font-size: 1.5em;
+    border-bottom: 1px solid #ccc;
+}
+.form-group input{
+    font-size: 1.3em;
+    width: 100%;
+    display: block;
+    padding: 5px;
+    border-color: grey;
+    border-style: solid;
+    border-width: 1px;
+}
+.form-group input:hover{
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    outline: none;
+}
+
+
+.row{
+    width: 100%;
+    display: inline-flex;
+}
+
+.form-group p{
+    display: none;
+}
+
+.btn-submit{
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgb(18, 195, 253);
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    }
