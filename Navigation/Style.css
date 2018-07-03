@@ -20,15 +20,18 @@ nav ul li a{
     
   
    }
+   nav{
+       background-color: deepskyblue; 
+   }
 nav ul {
         list-style-type:none;
         padding-left: 253px;
         padding-top:-56px;
     }
-nav ul li {//border:1px solid red;
+nav ul li {
     width:200px;
     height:50px;
-    background-color:#999900;
+    background-color:deepskyblue;
     text-align:center;
     margin-right:1px;
     line-height:50px;

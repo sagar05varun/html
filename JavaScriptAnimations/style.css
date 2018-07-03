@@ -1,0 +1,8 @@
+.carousal{
+    width: 640px;
+    height: 400px;
+}
+.carousal img{
+    width: 100%;
+    height: 100%;
+}
