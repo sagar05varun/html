@@ -1,0 +1,7 @@
+.One, tr, th,td {
+    border: 1px solid black;
+}
+
+.two, tr, th,td {
+    border: 1px solid red;
+}

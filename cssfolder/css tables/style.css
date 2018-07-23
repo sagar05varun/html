@@ -1,0 +1,19 @@
+#Customer {font-family: sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+}
+#Customer td, #Customer th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#Customer th {
+    background-color: rgb(10, 141, 10);
+    color: white;
+    text-align: left;
+    padding-top:12px;
+    padding-bottom: 12px;
+}
+
+#Customer tr:nth-child(even) {background-color: #f2f2f2;}
+#Customer tr:hover {background-color: #ddd;}

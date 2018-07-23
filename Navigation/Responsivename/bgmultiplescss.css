@@ -1,0 +1,6 @@
+#example1{
+    background: url(logo.png) left top no-repeat, url(images.jpg) right bottom no-repeat, url(paper.gif) left top repeat;
+    padding: 150px;
+    background-size: 450px,300px,auto;
+
+}

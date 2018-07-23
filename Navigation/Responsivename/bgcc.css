@@ -1,0 +1,27 @@
+.div1{
+    border: 1px solid black;
+    width: 150px;
+    height: 100px;
+    background-image: url(images.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.div2 {
+
+    border: 1px solid black;
+    width: 150px;
+    height: 100px;
+    background-image: url(images.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    }
+
+    .div3 {
+        border: 1px solid black;
+        width: 150px;
+        height: 100px;
+        background-image: url("images.jpg");
+        background-repeat: no-repeat;
+    }

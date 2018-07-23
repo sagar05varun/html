@@ -1,0 +1,17 @@
+
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+#exam1{
+
+    background-image: url("images.jpg"), url("paper.gif");
+    background-repeat: no-repeat, repeat;
+    background-position: bottom right, top left;
+    padding: 15px;
+   // border: 1px solid brown;
+    margin: 10px;
+
+    //background-attachment: fixed;
+ }

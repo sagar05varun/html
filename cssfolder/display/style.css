@@ -1,0 +1,13 @@
+li {display: inline;
+    }
+
+ul li a {text-decoration: none;
+         font-family: sans-serif;
+         padding: 3px;
+         border: 1px solid #ddd;
+         color: blue;  
+}
+span {display: block;}
+h2.hidden {display: none;}
+h3.hidden{visibility: hidden;
+}

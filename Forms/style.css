@@ -44,7 +44,7 @@ body{
     font-size: 1.5em;
     border-bottom: 1px solid #ccc;
 }
-.form-group input{
+.form-group input,.form-control{
     font-size: 1.3em;
     width: 100%;
     display: block;
@@ -61,7 +61,7 @@ body{
 }
 
 
-.row{
+.row{   
     width: 100%;
     display: inline-flex;
 }
@@ -80,3 +80,10 @@ body{
     border-radius: 5px;
     font-size: 1.2em;
     }
+
+.Date{
+    width: 100%;
+    padding: 5px;
+    margin-top: -6px;
+    margin-right: 60px;
+}
