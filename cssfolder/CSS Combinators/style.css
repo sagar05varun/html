@@ -1,0 +1,17 @@
+.Descendant p {
+    background-color: blue;
+    color: white;
+}
+
+.child>p {
+    background-color: yellow;
+}
+
+.adss+p {
+    background-color: orange;   
+
+}
+
+.gss~p {
+    background-color: hotpink;
+}

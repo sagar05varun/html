@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CSS Combinators</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Descendant Selector</h1>
+    <div class="Descendant">
+        <p>Paragraph 1 in the div.</p>
+        <p>Paragraph 2 in the div.</p>
+        <span><p>Paragraph 3 in the div.</p></span>
+    </div>
+        <p>Paragraph 4 in the div.</p>
+        <p>Paragraph 5 in the div.</p>
+    
+<div class="h">
+        <h1>Child Selector</h1>
+    <div class="child">
+            <p>Paragraph 1 in the div.</p>
+            <p>Paragraph 2 in the div.</p>
+            <span><p>Paragraph 3 in the div.</p></span>
+    </div>
+    <p>Paragraph 4 in the div.</p>
+        <p>Paragraph 5 in the div.</p>
+</div>
+<div class="hd">
+    <h1>Adjacent Sibling Selector</h1>
+    <div class="adss">
+        <p>Paragraph 1 in div</p>
+        <p>Paragraph 2 in div </p>
+        <span><p>Paragraph 3 in div</p></span>
+    </div>
+    <p>Paragraph 4 in div</p>
+        <p>Paragraph 5 in div </p>
+</div>
+<div class="sbl">
+    <h1>General Sibling Selector</h1>
+<div class="gss">
+        <p>Paragraph 1 in div</p>
+        <p>Paragraph 2 in div </p>
+        <span><p>Paragraph 3 in div</p></span>
+</div>
+<p>Paragraph 4 in div</p>
+<p>Paragraph 5 in div </p>
+
+</div>
+</body>
+</html>
