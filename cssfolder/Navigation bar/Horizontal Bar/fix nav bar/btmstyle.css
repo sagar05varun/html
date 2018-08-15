@@ -1,0 +1,43 @@
+body { 
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow:hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+li{
+    float: left;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    padding: 14px 16px;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.active {
+    background-color: green;
+}
+
+li a:hover:not(.active) {
+    background-color: black;
+}
+
+div {
+    font-family: sans-serif;
+    background-color: #1abc9c;
+    padding: 20px;
+    height: 3000px; 
+
+}
